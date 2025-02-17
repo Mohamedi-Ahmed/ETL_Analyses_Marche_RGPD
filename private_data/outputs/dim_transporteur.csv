@@ -1,0 +1,19 @@
+ShipperName,ShippingMethod
+and Sons,Ground
+PLC,Air
+PLC,Sea
+LLC,Air
+Ltd,Sea
+Inc,Ground
+Group,Ground
+Inc,Air
+and Sons,Sea
+Inc,Sea
+Group,Sea
+PLC,Ground
+LLC,Ground
+Ltd,Ground
+and Sons,Air
+Ltd,Air
+Group,Air
+LLC,Sea

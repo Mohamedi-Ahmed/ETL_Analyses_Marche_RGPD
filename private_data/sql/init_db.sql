@@ -3,6 +3,7 @@
 CREATE DATABASE IF NOT EXISTS ecommerce_warehouse;
 USE ecommerce_warehouse;
 
+-- 1. Modélisation du schéma en Constellation
 -- Création des tables de dimensions
 CREATE TABLE IF NOT EXISTS Dim_Date (
     DateKey INT PRIMARY KEY AUTO_INCREMENT,
@@ -71,6 +72,23 @@ CREATE TABLE IF NOT EXISTS InventoryFact (
     FOREIGN KEY (ProductKey) REFERENCES Dim_Produit(ProductKey),
     FOREIGN KEY (SupplierKey) REFERENCES Dim_Fournisseur(SupplierKey)
 );
+
+-- 2. Création de Data Marts spécifiques
+-- Data Mart des Ventes
+CREATE VIEW DataMart_Ventes AS
+SELECT d.Date, p.ProductName, c.CustomerSegment, f.QuantitySold, f.TotalAmount, f.DiscountAmount, f.NetAmount
+FROM SalesFact f
+JOIN Dim_Date d ON f.DateKey = d.DateKey
+JOIN Dim_Produit p ON f.ProductKey = p.ProductKey
+JOIN Dim_Client c ON f.CustomerKey = c.CustomerKey;
+
+-- Data Mart de l’Inventaire
+CREATE VIEW DataMart_Stock AS
+SELECT d.Date, p.ProductName, s.SupplierName, f.StockReceived, f.StockSold, f.StockOnHand
+FROM InventoryFact f
+JOIN Dim_Date d ON f.DateKey = d.DateKey
+JOIN Dim_Produit p ON f.ProductKey = p.ProductKey
+JOIN Dim_Fournisseur s ON f.SupplierKey = s.SupplierKey;
 
 -- Création d'un utilisateur dédié avec accès en lecture pour la partie securite
 CREATE USER IF NOT EXISTS 'analyste'@'%' IDENTIFIED BY 'mot_de_passe';

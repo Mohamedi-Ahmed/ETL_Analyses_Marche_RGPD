@@ -1,0 +1,66 @@
+ProductName,ProductCategory,ProductSubCategory
+Nathaniel,Electronics,Camera
+NonExistentProduct,Electronics,Mobile
+Angela,InvalidCategory,Action Figures
+Amy,Home & Garden,Decor
+Justin,Electronics,Headphones
+NonExistentProduct,Electronics,Camera
+Shannon,Home & Garden,Gardening Tools
+NonExistentProduct,Home & Garden,Decor
+Martha,Books,Fiction
+Elizabeth,InvalidCategory,Shirt
+Jamie,Books,Fiction
+NonExistentProduct,Books,Fiction
+Robert,Electronics,Mobile
+Shawn,Electronics,Headphones
+Anthony,Books,Academic
+Pamela,Electronics,Headphones
+Elizabeth,Clothing,Shirt
+Fred,InvalidCategory,Academic
+Wanda,Toys,Educational
+Angela,Toys,Action Figures
+NonExistentProduct,Books,Academic
+Cynthia,Electronics,Headphones
+Marvin,Clothing,Shirt
+Katie,Books,Non-fiction
+Martha,InvalidCategory,Fiction
+NonExistentProduct,InvalidCategory,Dolls
+Tammy,InvalidCategory,Furniture
+Michael,InvalidCategory,Dolls
+NonExistentProduct,Clothing,Shirt
+Tammy,Home & Garden,Furniture
+Kristine,Electronics,Headphones
+NonExistentProduct,Books,Non-fiction
+Shawn,InvalidCategory,Headphones
+Jamie,InvalidCategory,Fiction
+Michael,Toys,Dolls
+Fred,Books,Academic
+Nathaniel,InvalidCategory,Camera
+Pamela,InvalidCategory,Headphones
+Shannon,InvalidCategory,Gardening Tools
+Cynthia,InvalidCategory,Headphones
+NonExistentProduct,Electronics,Headphones
+NonExistentProduct,Toys,Dolls
+Wanda,InvalidCategory,Educational
+Anthony,InvalidCategory,Academic
+NonExistentProduct,Toys,Educational
+Amy,InvalidCategory,Decor
+Justin,InvalidCategory,Headphones
+NonExistentProduct,Home & Garden,Furniture
+Robert,InvalidCategory,Mobile
+Katie,InvalidCategory,Non-fiction
+Marvin,InvalidCategory,Shirt
+NonExistentProduct,Home & Garden,Gardening Tools
+NonExistentProduct,Toys,Action Figures
+NonExistentProduct,InvalidCategory,Non-fiction
+NonExistentProduct,InvalidCategory,Academic
+NonExistentProduct,InvalidCategory,Fiction
+Kristine,InvalidCategory,Headphones
+NonExistentProduct,InvalidCategory,Decor
+NonExistentProduct,InvalidCategory,Educational
+NonExistentProduct,InvalidCategory,Shirt
+NonExistentProduct,InvalidCategory,Headphones
+NonExistentProduct,InvalidCategory,Mobile
+NonExistentProduct,InvalidCategory,Camera
+NonExistentProduct,InvalidCategory,Gardening Tools
+NonExistentProduct,InvalidCategory,Furniture
