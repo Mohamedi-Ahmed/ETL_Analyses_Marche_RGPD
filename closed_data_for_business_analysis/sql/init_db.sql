@@ -76,7 +76,17 @@ CREATE TABLE IF NOT EXISTS InventoryFact (
 -- 2. Création de Data Marts spécifiques
 -- Data Mart des Ventes
 CREATE VIEW DataMart_Ventes AS
-SELECT d.Date, p.ProductName, c.CustomerSegment, f.QuantitySold, f.TotalAmount, f.DiscountAmount, f.NetAmount
+SELECT 
+    f.SalesFactKey,
+    d.Date,
+    p.ProductName,
+    p.ProductCategory,
+    p.ProductSubCategory,
+    c.CustomerSegment,
+    f.QuantitySold,
+    f.TotalAmount,
+    f.DiscountAmount,
+    f.NetAmount
 FROM SalesFact f
 JOIN Dim_Date d ON f.DateKey = d.DateKey
 JOIN Dim_Produit p ON f.ProductKey = p.ProductKey
@@ -84,7 +94,17 @@ JOIN Dim_Client c ON f.CustomerKey = c.CustomerKey;
 
 -- Data Mart de l’Inventaire
 CREATE VIEW DataMart_Stock AS
-SELECT d.Date, p.ProductName, s.SupplierName, f.StockReceived, f.StockSold, f.StockOnHand
+SELECT 
+    f.InventoryFactKey,
+    d.Date,
+    p.ProductName,
+    p.ProductCategory,
+    p.ProductSubCategory,
+    s.SupplierName,
+    s.SupplierLocation,
+    f.StockReceived,
+    f.StockSold,
+    f.StockOnHand
 FROM InventoryFact f
 JOIN Dim_Date d ON f.DateKey = d.DateKey
 JOIN Dim_Produit p ON f.ProductKey = p.ProductKey
