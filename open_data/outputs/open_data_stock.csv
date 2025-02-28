@@ -1,0 +1,131 @@
+Mois,ProductCategory,StockDisponible
+1900-01,Home & Garden,23534.0
+1900-01,Books,46284.0
+1900-01,Electronics,42914.0
+1900-01,InvalidCategory,19166.0
+1900-01,Clothing,9436.0
+2021-09,InvalidCategory,363.0
+2021-09,Books,1206.0
+2021-09,Electronics,2865.0
+2021-09,Home & Garden,771.0
+2021-09,Clothing,132.0
+2021-10,InvalidCategory,10773.0
+2021-10,Clothing,6717.0
+2021-10,Books,22368.0
+2021-10,Electronics,21285.0
+2021-10,Home & Garden,8409.0
+2021-11,Books,20097.0
+2021-11,Electronics,27906.0
+2021-11,Home & Garden,8898.0
+2021-11,Clothing,9246.0
+2021-11,InvalidCategory,10833.0
+2021-12,InvalidCategory,16620.0
+2021-12,Electronics,22701.0
+2021-12,Books,21861.0
+2021-12,Home & Garden,8454.0
+2021-12,Clothing,6954.0
+2022-01,Electronics,24153.0
+2022-01,Home & Garden,8604.0
+2022-01,Clothing,8529.0
+2022-01,Books,20253.0
+2022-01,InvalidCategory,11094.0
+2022-02,Electronics,21828.0
+2022-02,Books,21777.0
+2022-02,Clothing,6810.0
+2022-02,InvalidCategory,8484.0
+2022-02,Home & Garden,7545.0
+2022-03,Electronics,19356.0
+2022-03,Books,20994.0
+2022-03,InvalidCategory,11649.0
+2022-03,Clothing,9567.0
+2022-03,Home & Garden,11640.0
+2022-04,Home & Garden,10095.0
+2022-04,Books,27708.0
+2022-04,Clothing,3999.0
+2022-04,Electronics,23169.0
+2022-04,InvalidCategory,12771.0
+2022-05,InvalidCategory,11241.0
+2022-05,Electronics,32688.0
+2022-05,Clothing,9501.0
+2022-05,Books,23511.0
+2022-05,Home & Garden,10554.0
+2022-06,Electronics,22734.0
+2022-06,Books,23277.0
+2022-06,InvalidCategory,7650.0
+2022-06,Clothing,4833.0
+2022-06,Home & Garden,8787.0
+2022-07,Electronics,23265.0
+2022-07,InvalidCategory,13875.0
+2022-07,Books,31383.0
+2022-07,Home & Garden,9372.0
+2022-07,Clothing,7380.0
+2022-08,InvalidCategory,12798.0
+2022-08,Books,19779.0
+2022-08,Electronics,22320.0
+2022-08,Home & Garden,11604.0
+2022-08,Clothing,9135.0
+2022-09,Books,29790.0
+2022-09,Electronics,23370.0
+2022-09,Home & Garden,10041.0
+2022-09,InvalidCategory,11418.0
+2022-09,Clothing,11259.0
+2022-10,Books,32145.0
+2022-10,Electronics,22461.0
+2022-10,Home & Garden,6279.0
+2022-10,InvalidCategory,8586.0
+2022-10,Clothing,3885.0
+2022-11,Home & Garden,8862.0
+2022-11,Books,21585.0
+2022-11,InvalidCategory,19359.0
+2022-11,Electronics,24993.0
+2022-11,Clothing,6570.0
+2022-12,Electronics,17934.0
+2022-12,InvalidCategory,7356.0
+2022-12,Books,19347.0
+2022-12,Home & Garden,11214.0
+2022-12,Clothing,8316.0
+2023-01,Electronics,21624.0
+2023-01,Books,29334.0
+2023-01,InvalidCategory,9513.0
+2023-01,Clothing,4053.0
+2023-01,Home & Garden,12930.0
+2023-02,Books,24318.0
+2023-02,Clothing,5823.0
+2023-02,InvalidCategory,5703.0
+2023-02,Home & Garden,7077.0
+2023-02,Electronics,19662.0
+2023-03,InvalidCategory,13098.0
+2023-03,Books,24738.0
+2023-03,Electronics,16473.0
+2023-03,Clothing,7722.0
+2023-03,Home & Garden,11328.0
+2023-04,Books,27402.0
+2023-04,Electronics,24198.0
+2023-04,Home & Garden,11292.0
+2023-04,InvalidCategory,6258.0
+2023-04,Clothing,7392.0
+2023-05,Electronics,20337.0
+2023-05,Books,28926.0
+2023-05,Clothing,9156.0
+2023-05,Home & Garden,10350.0
+2023-05,InvalidCategory,9165.0
+2023-06,Books,28716.0
+2023-06,Electronics,21831.0
+2023-06,Clothing,10926.0
+2023-06,InvalidCategory,11943.0
+2023-06,Home & Garden,14538.0
+2023-07,Electronics,36054.0
+2023-07,Books,27120.0
+2023-07,Home & Garden,17145.0
+2023-07,Clothing,5622.0
+2023-07,InvalidCategory,9828.0
+2023-08,Books,28926.0
+2023-08,Home & Garden,14628.0
+2023-08,Electronics,17763.0
+2023-08,InvalidCategory,9771.0
+2023-08,Clothing,11223.0
+2023-09,Electronics,29274.0
+2023-09,Clothing,8751.0
+2023-09,InvalidCategory,12954.0
+2023-09,Books,27102.0
+2023-09,Home & Garden,10566.0

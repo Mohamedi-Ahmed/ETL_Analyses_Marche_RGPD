@@ -1,4 +1,4 @@
-CustomerSegment
-Silver
-Gold
-Bronze
+CustomerKey,CustomerSegment
+3,Bronze
+2,Gold
+1,Silver

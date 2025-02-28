@@ -1,19 +1,19 @@
-ShipperName,ShippingMethod
-and Sons,Ground
-PLC,Air
-PLC,Sea
-LLC,Air
-Ltd,Sea
-Inc,Ground
-Group,Ground
-Inc,Air
-and Sons,Sea
-Inc,Sea
-Group,Sea
-PLC,Ground
-LLC,Ground
-Ltd,Ground
-and Sons,Air
-Ltd,Air
-Group,Air
-LLC,Sea
+ShipperKey,ShipperName,ShippingMethod
+15,and Sons,Air
+1,and Sons,Ground
+9,and Sons,Sea
+17,Group,Air
+7,Group,Ground
+11,Group,Sea
+8,Inc,Air
+6,Inc,Ground
+10,Inc,Sea
+4,LLC,Air
+13,LLC,Ground
+18,LLC,Sea
+16,Ltd,Air
+14,Ltd,Ground
+5,Ltd,Sea
+2,PLC,Air
+12,PLC,Ground
+3,PLC,Sea
