@@ -71,12 +71,12 @@ END $$
 
 DELIMITER ;
 ```
-✅ **Utilisation** :  
+**Utilisation** :  
 ```sql
 CALL GetSalesFact();
 ```
 
-#### 🔹 3. Audit des mises à jour (UPDATE) et suppressions (DELETE)
+#### 3. Audit des mises à jour (UPDATE) et suppressions (DELETE)
 ```sql
 DELIMITER $$
 
